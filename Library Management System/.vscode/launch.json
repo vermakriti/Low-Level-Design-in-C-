@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kritiverma/Documents/Low Level Design in C++/Library Management System",
+      "program": "/Users/kritiverma/Documents/Low Level Design in C++/Library Management System/build/Debug/outDebug"
+    }
+  ]
+}
