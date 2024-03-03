@@ -166,14 +166,14 @@ class BookLending
 {
 
     User user;
-    map<BookItem, string> books;
+    vector<pair<BookItem, string>> books;
 
 public:
     BookLending(User &user, BookItem bookItem, string due_date)
     {
         this->user = user;
         user.setBorrowedTillNowCount();
-        books[bookItem] = due_date;
+        books.push_back({bookItem,due_date});
     }
     User getUser()
     {
@@ -185,7 +185,7 @@ public:
     }
     void setBookItem(BookItem bookItem, string due_date)
     {
-        books[bookItem] = due_date;
+        books.push_back({bookItem,due_date});
     }
     void setBorrowedTillNowCount()
     {
