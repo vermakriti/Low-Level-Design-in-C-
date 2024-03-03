@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/kritiverma/Documents/Splitwise",
-      "program": "/Users/kritiverma/Documents/Splitwise/build/Debug/outDebug"
+      "cwd": "/Users/kritiverma/Documents/Low Level Design in C++/Splitwise",
+      "program": "/Users/kritiverma/Documents/Low Level Design in C++/Splitwise/build/Debug/outDebug"
     }
   ]
 }
